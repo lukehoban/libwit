@@ -7,7 +7,7 @@ use std::vec::Vec;
 
 use log::{mod, Error, Debug, Info};
 
-static SOX_MAX_NLOOPS: uint = 8;
+const SOX_MAX_NLOOPS: uint = 8;
 static BUF_SIZE: uint = 100;
 
 #[repr(C)]
